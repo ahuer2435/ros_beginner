@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /mnt/data/work/ssh_test/ros_beginner/catkin_ws/install/setup.sh

@@ -1,0 +1,2 @@
+actionlib_tutorials
+-DCATKIN_DEVEL_PREFIX=/mnt/data/work/ssh_test/ros_beginner/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/mnt/data/work/ssh_test/ros_beginner/catkin_ws/install -G Unix Makefiles
