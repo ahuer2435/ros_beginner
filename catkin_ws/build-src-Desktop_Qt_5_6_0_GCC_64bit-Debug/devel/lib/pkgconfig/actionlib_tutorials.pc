@@ -1,0 +1,8 @@
+prefix=/mnt/data/work/ssh_test/ros_beginner/catkin_ws/build-src-Desktop_Qt_5_6_0_GCC_64bit-Debug/devel
+
+Name: actionlib_tutorials
+Description: Description of actionlib_tutorials
+Version: 0.0.0
+Cflags: -I/mnt/data/work/ssh_test/ros_beginner/catkin_ws/build-src-Desktop_Qt_5_6_0_GCC_64bit-Debug/devel/include
+Libs: -L/mnt/data/work/ssh_test/ros_beginner/catkin_ws/build-src-Desktop_Qt_5_6_0_GCC_64bit-Debug/devel/lib 
+Requires: actionlib_msgs
