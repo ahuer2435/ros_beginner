@@ -1,0 +1,5 @@
+<launch>
+<!-- boot ros node test -->
+  <node pkg="boot_node" type="boot_node_exe">
+  </node>
+</launch>

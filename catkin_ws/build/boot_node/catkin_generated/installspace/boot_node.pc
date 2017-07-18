@@ -1,0 +1,8 @@
+prefix=/mnt/data/work/ssh_test/ros_beginner/catkin_ws/install
+
+Name: boot_node
+Description: Description of boot_node
+Version: 0.0.0
+Cflags: 
+Libs: -L/mnt/data/work/ssh_test/ros_beginner/catkin_ws/install/lib 
+Requires: roscpp

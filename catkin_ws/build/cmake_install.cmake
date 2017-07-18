@@ -117,6 +117,7 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unsp
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   INCLUDE("/mnt/data/work/ssh_test/ros_beginner/catkin_ws/build/gtest/cmake_install.cmake")
+  INCLUDE("/mnt/data/work/ssh_test/ros_beginner/catkin_ws/build/boot_node/cmake_install.cmake")
   INCLUDE("/mnt/data/work/ssh_test/ros_beginner/catkin_ws/build/pluginlib_tutorials_/cmake_install.cmake")
   INCLUDE("/mnt/data/work/ssh_test/ros_beginner/catkin_ws/build/actionlib_tutorials/cmake_install.cmake")
 

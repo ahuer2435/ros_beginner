@@ -5,5 +5,6 @@
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
 SUBDIRS(gtest)
+SUBDIRS(boot_node)
 SUBDIRS(pluginlib_tutorials_)
 SUBDIRS(actionlib_tutorials)

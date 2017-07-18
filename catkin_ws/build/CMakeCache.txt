@@ -263,6 +263,12 @@ actionlib_tutorials_BINARY_DIR:STATIC=/mnt/data/work/ssh_test/ros_beginner/catki
 //Value Computed by CMake
 actionlib_tutorials_SOURCE_DIR:STATIC=/mnt/data/work/ssh_test/ros_beginner/catkin_ws/src/actionlib_tutorials
 
+//Value Computed by CMake
+boot_node_BINARY_DIR:STATIC=/mnt/data/work/ssh_test/ros_beginner/catkin_ws/build/boot_node
+
+//Value Computed by CMake
+boot_node_SOURCE_DIR:STATIC=/mnt/data/work/ssh_test/ros_beginner/catkin_ws/src/boot_node
+
 //The directory containing a CMake configuration file for catkin.
 catkin_DIR:PATH=/opt/ros/indigo/share/catkin/cmake
 
@@ -465,7 +471,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=4
+CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=5
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
