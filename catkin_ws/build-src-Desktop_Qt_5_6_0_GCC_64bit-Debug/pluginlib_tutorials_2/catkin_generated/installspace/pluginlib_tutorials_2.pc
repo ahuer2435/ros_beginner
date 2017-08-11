@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: pluginlib_tutorials_2
+Description: Description of pluginlib_tutorials_2
+Version: 0.0.0
+Cflags: 
+Libs: -L/usr/local/lib 
+Requires: 

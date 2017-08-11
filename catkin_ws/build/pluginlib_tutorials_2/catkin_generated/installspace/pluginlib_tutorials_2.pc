@@ -1,0 +1,8 @@
+prefix=/mnt/data/work/ssh_test/ros_beginner/catkin_ws/install
+
+Name: pluginlib_tutorials_2
+Description: Description of pluginlib_tutorials_2
+Version: 0.0.0
+Cflags: 
+Libs: -L/mnt/data/work/ssh_test/ros_beginner/catkin_ws/install/lib 
+Requires: 

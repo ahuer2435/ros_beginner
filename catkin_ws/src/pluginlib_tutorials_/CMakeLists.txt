@@ -128,9 +128,6 @@ add_library(polygon_plugins src/polygon_plugins.cpp)
 #   src/${PROJECT_NAME}/pluginlib_tutorials_.cpp
 # )
 
-add_executable(polygon_loader src/polygon_loader.cpp)
-target_link_libraries(polygon_loader ${catkin_LIBRARIES})
-
 ## Add cmake target dependencies of the library
 ## as an example, code may need to be generated before libraries
 ## either from message generation or dynamic reconfigure

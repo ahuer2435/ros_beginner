@@ -10,7 +10,7 @@
 export CMAKE_PREFIX_PATH="/mnt/data/work/ssh_test/ros_beginner/catkin_ws/build-src-Desktop_Qt_5_6_0_GCC_64bit-Debug/devel:$CMAKE_PREFIX_PATH"
 export CPATH="/mnt/data/work/ssh_test/ros_beginner/catkin_ws/build-src-Desktop_Qt_5_6_0_GCC_64bit-Debug/devel/include:$CPATH"
 export LD_LIBRARY_PATH="/mnt/data/work/ssh_test/ros_beginner/catkin_ws/build-src-Desktop_Qt_5_6_0_GCC_64bit-Debug/devel/lib:$LD_LIBRARY_PATH"
-export PATH="/opt/ros/indigo/bin:/home/yanqiao/bin/Qt5.6.0/5.6/gcc_64/bin:/usr/bin:/home/yanqiao/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
+export PATH="/opt/ros/indigo/bin:/home/yanqiao/bin/Qt5.6.0/5.6/gcc_64/bin:/usr/bin:/home/yanqiao/bin:/home/yanqiao/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
 export PKG_CONFIG_PATH="/mnt/data/work/ssh_test/ros_beginner/catkin_ws/build-src-Desktop_Qt_5_6_0_GCC_64bit-Debug/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD="/mnt/data/work/ssh_test/ros_beginner/catkin_ws/build-src-Desktop_Qt_5_6_0_GCC_64bit-Debug"
 export PYTHONPATH="/mnt/data/work/ssh_test/ros_beginner/catkin_ws/build-src-Desktop_Qt_5_6_0_GCC_64bit-Debug/devel/lib/python2.7/dist-packages:$PYTHONPATH"

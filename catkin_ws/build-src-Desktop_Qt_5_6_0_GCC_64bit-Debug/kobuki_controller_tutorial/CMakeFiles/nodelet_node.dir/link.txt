@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -g   -shared -Wl,-soname,libnodelet_node.so -o ../devel/lib/libnodelet_node.so CMakeFiles/nodelet_node.dir/src/nodelet.cpp.o 

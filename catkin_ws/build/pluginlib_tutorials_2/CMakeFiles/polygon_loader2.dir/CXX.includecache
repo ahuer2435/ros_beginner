@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/data/work/ssh_test/ros_beginner/catkin_ws/src/pluginlib_tutorials_/include/pluginlib_tutorials_/polygon_base.h
+
+/mnt/data/work/ssh_test/ros_beginner/catkin_ws/src/pluginlib_tutorials_2/src/polygon_loader.cpp
+pluginlib/class_loader.h
+-
+../../pluginlib_tutorials_/include/pluginlib_tutorials_/polygon_base.h
+/mnt/data/work/ssh_test/ros_beginner/catkin_ws/src/pluginlib_tutorials_/include/pluginlib_tutorials_/polygon_base.h
+

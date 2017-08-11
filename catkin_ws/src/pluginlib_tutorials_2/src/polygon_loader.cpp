@@ -1,5 +1,5 @@
 #include <pluginlib/class_loader.h>
-#include <pluginlib_tutorials_/polygon_base.h>
+#include "../../pluginlib_tutorials_/include/pluginlib_tutorials_/polygon_base.h"
 
 int main(int argc, char** argv)
 {

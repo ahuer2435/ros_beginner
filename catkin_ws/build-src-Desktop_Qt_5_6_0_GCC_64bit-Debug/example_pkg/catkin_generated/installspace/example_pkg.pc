@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: example_pkg
+Description: Description of example_pkg
+Version: 0.0.0
+Cflags: -I/usr/local/include
+Libs: -L/usr/local/lib -lexample_pkg
+Requires: nodelet roscpp

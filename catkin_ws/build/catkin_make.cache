@@ -1,2 +1,2 @@
-actionlib_tutorials:boot_node:pluginlib_tutorials_
+actionlib_tutorials:boot_node:example_pkg:kobuki_controller_tutorial:pluginlib_tutorials_:pluginlib_tutorials_2
 -DCATKIN_DEVEL_PREFIX=/mnt/data/work/ssh_test/ros_beginner/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/mnt/data/work/ssh_test/ros_beginner/catkin_ws/install -G Unix Makefiles

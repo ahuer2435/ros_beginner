@@ -150,20 +150,6 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-pluginlib_tutorials_/CMakeFiles/polygon_loader.dir/rule:
-	cd /mnt/data/work/ssh_test/ros_beginner/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pluginlib_tutorials_/CMakeFiles/polygon_loader.dir/rule
-.PHONY : pluginlib_tutorials_/CMakeFiles/polygon_loader.dir/rule
-
-# Convenience name for target.
-polygon_loader: pluginlib_tutorials_/CMakeFiles/polygon_loader.dir/rule
-.PHONY : polygon_loader
-
-# fast build rule for target.
-polygon_loader/fast:
-	cd /mnt/data/work/ssh_test/ros_beginner/catkin_ws/build && $(MAKE) -f pluginlib_tutorials_/CMakeFiles/polygon_loader.dir/build.make pluginlib_tutorials_/CMakeFiles/polygon_loader.dir/build
-.PHONY : polygon_loader/fast
-
-# Convenience name for target.
 pluginlib_tutorials_/CMakeFiles/polygon_plugins.dir/rule:
 	cd /mnt/data/work/ssh_test/ros_beginner/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pluginlib_tutorials_/CMakeFiles/polygon_plugins.dir/rule
 .PHONY : pluginlib_tutorials_/CMakeFiles/polygon_plugins.dir/rule
@@ -176,30 +162,6 @@ polygon_plugins: pluginlib_tutorials_/CMakeFiles/polygon_plugins.dir/rule
 polygon_plugins/fast:
 	cd /mnt/data/work/ssh_test/ros_beginner/catkin_ws/build && $(MAKE) -f pluginlib_tutorials_/CMakeFiles/polygon_plugins.dir/build.make pluginlib_tutorials_/CMakeFiles/polygon_plugins.dir/build
 .PHONY : polygon_plugins/fast
-
-src/polygon_loader.o: src/polygon_loader.cpp.o
-.PHONY : src/polygon_loader.o
-
-# target to build an object file
-src/polygon_loader.cpp.o:
-	cd /mnt/data/work/ssh_test/ros_beginner/catkin_ws/build && $(MAKE) -f pluginlib_tutorials_/CMakeFiles/polygon_loader.dir/build.make pluginlib_tutorials_/CMakeFiles/polygon_loader.dir/src/polygon_loader.cpp.o
-.PHONY : src/polygon_loader.cpp.o
-
-src/polygon_loader.i: src/polygon_loader.cpp.i
-.PHONY : src/polygon_loader.i
-
-# target to preprocess a source file
-src/polygon_loader.cpp.i:
-	cd /mnt/data/work/ssh_test/ros_beginner/catkin_ws/build && $(MAKE) -f pluginlib_tutorials_/CMakeFiles/polygon_loader.dir/build.make pluginlib_tutorials_/CMakeFiles/polygon_loader.dir/src/polygon_loader.cpp.i
-.PHONY : src/polygon_loader.cpp.i
-
-src/polygon_loader.s: src/polygon_loader.cpp.s
-.PHONY : src/polygon_loader.s
-
-# target to generate assembly for a file
-src/polygon_loader.cpp.s:
-	cd /mnt/data/work/ssh_test/ros_beginner/catkin_ws/build && $(MAKE) -f pluginlib_tutorials_/CMakeFiles/polygon_loader.dir/build.make pluginlib_tutorials_/CMakeFiles/polygon_loader.dir/src/polygon_loader.cpp.s
-.PHONY : src/polygon_loader.cpp.s
 
 src/polygon_plugins.o: src/polygon_plugins.cpp.o
 .PHONY : src/polygon_plugins.o
@@ -236,13 +198,9 @@ help:
 	@echo "... install/local"
 	@echo "... install/strip"
 	@echo "... list_install_components"
-	@echo "... polygon_loader"
 	@echo "... polygon_plugins"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... src/polygon_loader.o"
-	@echo "... src/polygon_loader.i"
-	@echo "... src/polygon_loader.s"
 	@echo "... src/polygon_plugins.o"
 	@echo "... src/polygon_plugins.i"
 	@echo "... src/polygon_plugins.s"

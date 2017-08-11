@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC    -shared -Wl,-soname,libnodelet_node.so -o /mnt/data/work/ssh_test/ros_beginner/catkin_ws/devel/lib/libnodelet_node.so CMakeFiles/nodelet_node.dir/src/nodelet.cpp.o 
