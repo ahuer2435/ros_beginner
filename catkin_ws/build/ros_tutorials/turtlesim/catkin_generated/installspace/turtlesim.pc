@@ -1,8 +1,0 @@
-prefix=/mnt/data/work/ssh_test/ros_beginner/catkin_ws/install
-
-Name: turtlesim
-Description: Description of turtlesim
-Version: 0.5.5
-Cflags: -I/mnt/data/work/ssh_test/ros_beginner/catkin_ws/install/include
-Libs: -L/mnt/data/work/ssh_test/ros_beginner/catkin_ws/install/lib 
-Requires: geometry_msgs message_runtime std_msgs std_srvs

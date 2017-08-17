@@ -1,8 +1,0 @@
-prefix=/mnt/data/work/ssh_test/ros_beginner/catkin_ws/build-src-Desktop_Qt_5_6_0_GCC_64bit-Debug/devel
-
-Name: boot_node
-Description: Description of boot_node
-Version: 0.0.0
-Cflags: 
-Libs: -L/mnt/data/work/ssh_test/ros_beginner/catkin_ws/build-src-Desktop_Qt_5_6_0_GCC_64bit-Debug/devel/lib 
-Requires: roscpp

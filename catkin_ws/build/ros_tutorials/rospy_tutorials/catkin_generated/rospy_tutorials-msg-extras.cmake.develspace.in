@@ -1,2 +1,0 @@
-set(rospy_tutorials_MESSAGE_FILES "/mnt/data/work/ssh_test/ros_beginner/catkin_ws/src/ros_tutorials/rospy_tutorials/msg/Floats.msg;/mnt/data/work/ssh_test/ros_beginner/catkin_ws/src/ros_tutorials/rospy_tutorials/msg/HeaderString.msg")
-set(rospy_tutorials_SERVICE_FILES "/mnt/data/work/ssh_test/ros_beginner/catkin_ws/src/ros_tutorials/rospy_tutorials/srv/AddTwoInts.srv;/mnt/data/work/ssh_test/ros_beginner/catkin_ws/src/ros_tutorials/rospy_tutorials/srv/BadTwoInts.srv")
