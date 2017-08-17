@@ -462,6 +462,19 @@ nodelet_generate_messages_py/fast:
 .PHONY : nodelet_generate_messages_py/fast
 
 #=============================================================================
+# Target rules for targets named nodelet_math
+
+# Build rule for target.
+nodelet_math: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 nodelet_math
+.PHONY : nodelet_math
+
+# fast build rule for target.
+nodelet_math/fast:
+	$(MAKE) -f nodelet_tutorial_math/CMakeFiles/nodelet_math.dir/build.make nodelet_tutorial_math/CMakeFiles/nodelet_math.dir/build
+.PHONY : nodelet_math/fast
+
+#=============================================================================
 # Target rules for targets named polygon_plugins
 
 # Build rule for target.
@@ -786,58 +799,6 @@ fibonacci_server/fast:
 	$(MAKE) -f actionlib_tutorials/CMakeFiles/fibonacci_server.dir/build.make actionlib_tutorials/CMakeFiles/fibonacci_server.dir/build
 .PHONY : fibonacci_server/fast
 
-#=============================================================================
-# Target rules for targets named kobuki_msgs_generate_messages_cpp
-
-# Build rule for target.
-kobuki_msgs_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 kobuki_msgs_generate_messages_cpp
-.PHONY : kobuki_msgs_generate_messages_cpp
-
-# fast build rule for target.
-kobuki_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f kobuki_controller_tutorial/CMakeFiles/kobuki_msgs_generate_messages_cpp.dir/build.make kobuki_controller_tutorial/CMakeFiles/kobuki_msgs_generate_messages_cpp.dir/build
-.PHONY : kobuki_msgs_generate_messages_cpp/fast
-
-#=============================================================================
-# Target rules for targets named kobuki_msgs_generate_messages_lisp
-
-# Build rule for target.
-kobuki_msgs_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 kobuki_msgs_generate_messages_lisp
-.PHONY : kobuki_msgs_generate_messages_lisp
-
-# fast build rule for target.
-kobuki_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f kobuki_controller_tutorial/CMakeFiles/kobuki_msgs_generate_messages_lisp.dir/build.make kobuki_controller_tutorial/CMakeFiles/kobuki_msgs_generate_messages_lisp.dir/build
-.PHONY : kobuki_msgs_generate_messages_lisp/fast
-
-#=============================================================================
-# Target rules for targets named kobuki_msgs_generate_messages_py
-
-# Build rule for target.
-kobuki_msgs_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 kobuki_msgs_generate_messages_py
-.PHONY : kobuki_msgs_generate_messages_py
-
-# fast build rule for target.
-kobuki_msgs_generate_messages_py/fast:
-	$(MAKE) -f kobuki_controller_tutorial/CMakeFiles/kobuki_msgs_generate_messages_py.dir/build.make kobuki_controller_tutorial/CMakeFiles/kobuki_msgs_generate_messages_py.dir/build
-.PHONY : kobuki_msgs_generate_messages_py/fast
-
-#=============================================================================
-# Target rules for targets named nodelet_node
-
-# Build rule for target.
-nodelet_node: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 nodelet_node
-.PHONY : nodelet_node
-
-# fast build rule for target.
-nodelet_node/fast:
-	$(MAKE) -f kobuki_controller_tutorial/CMakeFiles/nodelet_node.dir/build.make kobuki_controller_tutorial/CMakeFiles/nodelet_node.dir/build
-.PHONY : nodelet_node/fast
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -875,6 +836,7 @@ help:
 	@echo "... nodelet_generate_messages_cpp"
 	@echo "... nodelet_generate_messages_lisp"
 	@echo "... nodelet_generate_messages_py"
+	@echo "... nodelet_math"
 	@echo "... polygon_plugins"
 	@echo "... polygon_loader2"
 	@echo "... _actionlib_tutorials_generate_messages_check_deps_FibonacciAction"
@@ -900,10 +862,6 @@ help:
 	@echo "... actionlib_tutorials_genpy"
 	@echo "... fibonacci_client"
 	@echo "... fibonacci_server"
-	@echo "... kobuki_msgs_generate_messages_cpp"
-	@echo "... kobuki_msgs_generate_messages_lisp"
-	@echo "... kobuki_msgs_generate_messages_py"
-	@echo "... nodelet_node"
 .PHONY : help
 
 

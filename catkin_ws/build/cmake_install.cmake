@@ -119,10 +119,10 @@ IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   INCLUDE("/mnt/data/work/ssh_test/ros_beginner/catkin_ws/build/gtest/cmake_install.cmake")
   INCLUDE("/mnt/data/work/ssh_test/ros_beginner/catkin_ws/build/boot_node/cmake_install.cmake")
   INCLUDE("/mnt/data/work/ssh_test/ros_beginner/catkin_ws/build/example_pkg/cmake_install.cmake")
+  INCLUDE("/mnt/data/work/ssh_test/ros_beginner/catkin_ws/build/nodelet_tutorial_math/cmake_install.cmake")
   INCLUDE("/mnt/data/work/ssh_test/ros_beginner/catkin_ws/build/pluginlib_tutorials_/cmake_install.cmake")
   INCLUDE("/mnt/data/work/ssh_test/ros_beginner/catkin_ws/build/pluginlib_tutorials_2/cmake_install.cmake")
   INCLUDE("/mnt/data/work/ssh_test/ros_beginner/catkin_ws/build/actionlib_tutorials/cmake_install.cmake")
-  INCLUDE("/mnt/data/work/ssh_test/ros_beginner/catkin_ws/build/kobuki_controller_tutorial/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

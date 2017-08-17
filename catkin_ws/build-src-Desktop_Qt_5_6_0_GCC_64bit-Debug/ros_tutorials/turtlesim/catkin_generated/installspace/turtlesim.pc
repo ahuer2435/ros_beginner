@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: turtlesim
+Description: Description of turtlesim
+Version: 0.5.5
+Cflags: -I/usr/local/include
+Libs: -L/usr/local/lib 
+Requires: geometry_msgs message_runtime std_msgs std_srvs

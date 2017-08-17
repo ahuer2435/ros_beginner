@@ -291,3 +291,32 @@ Linking C executable cmTryCompileExec914798011
 make[1]: Leaving directory `/mnt/data/work/ssh_test/ros_beginner/catkin_ws/build-src-Desktop_Qt_5_6_0_GCC_64bit-Debug/CMakeFiles/CMakeTmp'
 
 
+Determining if the Q_WS_X11 exist passed with the following output:
+Change Dir: /mnt/data/work/ssh_test/ros_beginner/catkin_ws/build-src-Desktop_Qt_5_6_0_GCC_64bit-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3555285396/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3555285396.dir/build.make CMakeFiles/cmTryCompileExec3555285396.dir/build
+make[1]: Entering directory `/mnt/data/work/ssh_test/ros_beginner/catkin_ws/build-src-Desktop_Qt_5_6_0_GCC_64bit-Debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /mnt/data/work/ssh_test/ros_beginner/catkin_ws/build-src-Desktop_Qt_5_6_0_GCC_64bit-Debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3555285396.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec3555285396.dir/CheckSymbolExists.cxx.o -c /mnt/data/work/ssh_test/ros_beginner/catkin_ws/build-src-Desktop_Qt_5_6_0_GCC_64bit-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTryCompileExec3555285396
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3555285396.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec3555285396.dir/CheckSymbolExists.cxx.o  -o cmTryCompileExec3555285396 -rdynamic 
+make[1]: Leaving directory `/mnt/data/work/ssh_test/ros_beginner/catkin_ws/build-src-Desktop_Qt_5_6_0_GCC_64bit-Debug/CMakeFiles/CMakeTmp'
+
+File /mnt/data/work/ssh_test/ros_beginner/catkin_ws/build-src-Desktop_Qt_5_6_0_GCC_64bit-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_X11
+  return ((int*)(&Q_WS_X11))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

@@ -1,0 +1,8 @@
+prefix=/mnt/data/work/ssh_test/ros_beginner/catkin_ws/build-src-Desktop_Qt_5_6_0_GCC_64bit-Debug/devel
+
+Name: roscpp_tutorials
+Description: Description of roscpp_tutorials
+Version: 0.5.5
+Cflags: -I/mnt/data/work/ssh_test/ros_beginner/catkin_ws/build-src-Desktop_Qt_5_6_0_GCC_64bit-Debug/devel/include
+Libs: -L/mnt/data/work/ssh_test/ros_beginner/catkin_ws/build-src-Desktop_Qt_5_6_0_GCC_64bit-Debug/devel/lib 
+Requires: message_runtime std_msgs

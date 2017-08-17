@@ -7,7 +7,7 @@
 SUBDIRS(gtest)
 SUBDIRS(boot_node)
 SUBDIRS(example_pkg)
+SUBDIRS(nodelet_tutorial_math)
 SUBDIRS(pluginlib_tutorials_)
 SUBDIRS(pluginlib_tutorials_2)
 SUBDIRS(actionlib_tutorials)
-SUBDIRS(kobuki_controller_tutorial)

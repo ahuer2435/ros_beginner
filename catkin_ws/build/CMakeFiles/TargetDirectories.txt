@@ -31,13 +31,10 @@
 /mnt/data/work/ssh_test/ros_beginner/catkin_ws/build/actionlib_tutorials/CMakeFiles/fibonacci_server.dir
 /mnt/data/work/ssh_test/ros_beginner/catkin_ws/build/gtest/CMakeFiles/gtest.dir
 /mnt/data/work/ssh_test/ros_beginner/catkin_ws/build/gtest/CMakeFiles/gtest_main.dir
-/mnt/data/work/ssh_test/ros_beginner/catkin_ws/build/kobuki_controller_tutorial/CMakeFiles/kobuki_msgs_generate_messages_cpp.dir
-/mnt/data/work/ssh_test/ros_beginner/catkin_ws/build/kobuki_controller_tutorial/CMakeFiles/kobuki_msgs_generate_messages_lisp.dir
-/mnt/data/work/ssh_test/ros_beginner/catkin_ws/build/kobuki_controller_tutorial/CMakeFiles/kobuki_msgs_generate_messages_py.dir
 /mnt/data/work/ssh_test/ros_beginner/catkin_ws/build/example_pkg/CMakeFiles/nodelet_generate_messages_cpp.dir
 /mnt/data/work/ssh_test/ros_beginner/catkin_ws/build/example_pkg/CMakeFiles/nodelet_generate_messages_lisp.dir
 /mnt/data/work/ssh_test/ros_beginner/catkin_ws/build/example_pkg/CMakeFiles/nodelet_generate_messages_py.dir
-/mnt/data/work/ssh_test/ros_beginner/catkin_ws/build/kobuki_controller_tutorial/CMakeFiles/nodelet_node.dir
+/mnt/data/work/ssh_test/ros_beginner/catkin_ws/build/nodelet_tutorial_math/CMakeFiles/nodelet_math.dir
 /mnt/data/work/ssh_test/ros_beginner/catkin_ws/build/pluginlib_tutorials_2/CMakeFiles/polygon_loader2.dir
 /mnt/data/work/ssh_test/ros_beginner/catkin_ws/build/pluginlib_tutorials_/CMakeFiles/polygon_plugins.dir
 /mnt/data/work/ssh_test/ros_beginner/catkin_ws/build/boot_node/CMakeFiles/roscpp_generate_messages_cpp.dir

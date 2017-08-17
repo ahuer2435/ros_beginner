@@ -7,6 +7,13 @@ int main(int argc, char **argv)
 
     ROS_INFO("boot ros node test.");
 
-    ros::spin();
+    //ros::spin();
+    ros::Rate freq(5);
+    while(ros::ok())
+    {
+        ros::spinOnce();
+        ROS_INFO("spinOnce.");
+        freq.sleep();
+    };
     return 0;
 }

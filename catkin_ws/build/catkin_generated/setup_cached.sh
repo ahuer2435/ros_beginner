@@ -7,4 +7,5 @@
 # new environment variables
 
 # modified environment variables
+export PATH="/opt/ros/indigo/bin:/home/yanqiao/bin:/home/yanqiao/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
 export PWD="/mnt/data/work/ssh_test/ros_beginner/catkin_ws/build"
