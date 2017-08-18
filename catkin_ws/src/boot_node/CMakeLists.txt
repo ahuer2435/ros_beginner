@@ -139,6 +139,11 @@ target_link_libraries(boot_node_exe ${catkin_LIBRARIES})
 add_executable(node_boot_shutdown src/node_boot_shutdown.cpp)
 target_link_libraries(node_boot_shutdown ${catkin_LIBRARIES})
 
+add_executable(talker_exec src/talker.cpp)
+target_link_libraries(talker_exec ${catkin_LIBRARIES})
+
+add_executable(listener_exec src/listener.cpp)
+target_link_libraries(listener_exec ${catkin_LIBRARIES})
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
 ## target back to the shorter version for ease of user use
